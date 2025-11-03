@@ -15,7 +15,7 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Photography Portfolio Website",
+    title: "Laundry Website",
     description: "Project 2 description",
     imgUrl: "/imgUrls/projects/2.png",
     gitUrl: "/",
@@ -23,7 +23,7 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "E-commerce Application",
+    title: "Corrosion Detecion using Machine Learning",
     description: "Project 3 description",
     imgUrl: "/imgUrls/projects/3.png",
     gitUrl: "/",
@@ -31,7 +31,7 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Food Ordering Application",
+    title: "NLP Prediction with mBERT",
     description: "Project 4 description",
     imgUrl: "/imgUrls/projects/4.png",
     gitUrl: "/",
@@ -39,7 +39,7 @@ const projectsData = [
   },
   {
     id: 5,
-    title: "React Firebase Template",
+    title: "Discord Bot",
     description: "Authentication and CRUD operations",
     imgUrl: "/imgUrls/projects/5.png",
     gitUrl: "/",
@@ -47,7 +47,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
+    title: "Food Scanner",
     description: "Project 6 description",
     imgUrl: "/imgUrls/projects/6.png",
     gitUrl: "/",

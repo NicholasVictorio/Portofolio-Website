@@ -21,7 +21,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="/NicholasVictorio_CV.pdf"
+            href="/assets/file/NicholasVictorioCV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 px-6 py-3 border rounded-lg font-medium hover:bg-gray-300 hover:text-black hover:shadow-lg transition text-center"

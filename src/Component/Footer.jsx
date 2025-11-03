@@ -42,7 +42,7 @@ const Footer = () => {
                 className="flex items-center hover:text-fun-pink transition"
               >
                 <Image
-                  src="/assets/logos/GitHub.svg"
+                  src="/assets/logos/Github.svg"
                   width={18}
                   height={18}
                   alt="GitHub"
@@ -53,7 +53,7 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/nicholas-victorio-b131b32b0/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center hover:text-fun-pink transition"
@@ -133,12 +133,12 @@ const Footer = () => {
         <div className="mt-5">
           <a
             className="inline-flex items-center text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink font-bold hover:opacity-80 transition"
-            href="https://github.com/NicholasVictorio"
+            href="https://github.com/NicholasVictorio/Portofolio"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
-              src="/assets/logos/github.svg"
+              src="/assets/logos/Github.svg"
               width={16}
               height={16}
               alt="Github Icon"
