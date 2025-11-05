@@ -11,8 +11,9 @@ export default function Home() {
     <main className="flex min-h-screen flex-col bg-[#121212] text-white">
       
       <div>
-        <Navbar />
+
         <Hero />
+        <Navbar />
         <About />
         <Skill />
         <Projects />

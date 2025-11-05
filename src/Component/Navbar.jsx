@@ -25,12 +25,12 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 bg-[#121212] bg-opacity-100 transition-transform duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 bg-[#121212]/70 transition-transform duration-300 ${
         visible ? "translate-y-0" : "-translate-y-full"
       }`}
     >
       <div className="max-w-6xl mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 py-6">
-        {/* Logo */}
+
         <Link href="/" className="text-2xl md:text-3xl text-white font-semibold">
           NV
         </Link>
@@ -38,19 +38,19 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-8">
           <Link
             href="#About"
-            className="text-zinc-400 hover:text-white transition"
+            className="text-zinc-300 hover:text-white transition"
           >
             About
           </Link>
           <Link
             href="#Projects"
-            className="text-zinc-400 hover:text-white transition"
+            className="text-zinc-300 hover:text-white transition"
           >
             Projects
           </Link>
           <Link
             href="#Contact"
-            className="text-zinc-400 hover:text-white transition"
+            className="text-zinc-300 hover:text-white transition"
           >
             Contact
           </Link>
@@ -71,8 +71,8 @@ const Navbar = () => {
       </div>
 
       {navbarOpen && (
-        <div className="md:hidden bg-[#121212] border-t border-[#33353F]">
-          <ul className="flex flex-col items-center py-4 space-y-4">
+        <div className="md:hidden">
+          <ul className="flex flex-col items-center py-5 space-y-4">
             <li>
               <Link
                 href="#About"
@@ -80,15 +80,6 @@ const Navbar = () => {
                 onClick={() => setNavbarOpen(false)}
               >
                 About
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="#Skill"
-                className="text-zinc-300 hover:text-white transition"
-                onClick={() => setNavbarOpen(false)}
-              >
-                Skills
               </Link>
             </li>
             <li>

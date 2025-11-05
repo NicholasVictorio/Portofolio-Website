@@ -10,30 +10,30 @@ const projectsData = [
     title: "Portfolio Website",
     description: "Project 1 description",
     imgUrl: "/imgUrls/projects/1.png",
-    gitUrl: "https://github.com/NicholasVictorio",
+    gitUrl: "https://github.com/NicholasVictorio/Portfolio",
     webUrl: "/"
   },
   {
     id: 2,
-    title: "Laundry Website",
-    description: "Project 2 description",
-    imgUrl: "/imgUrls/projects/2.png",
-    gitUrl: "/",
-    webUrl: "/"
+    title: "Multilingual Sentiment Analysis with mBERT",
+    description: "A Natural Language Processing (NLP) project that aims to classify sentiment (positive, negative, neutral) from texts originating from different languages ​​using the mBERT (Multilingual BERT) model.",
+    imgUrl: "/assets/project/NLP.png",
+    gitUrl: "https://github.com/NicholasVictorio/Multilingual-Sentiment-Analysis-with-mBERT",
+    webUrl: "https://predict-sentiment-nlp-kel15.streamlit.app"
   },
   {
     id: 3,
-    title: "Corrosion Detecion using Machine Learning",
-    description: "Project 3 description",
-    imgUrl: "/imgUrls/projects/3.png",
-    gitUrl: "/",
+    title: "Corrosion Detecion using Deep Learning",
+    description: "Developed an automated image classification system to detect corrosion vs. non-corrosion on metal surfaces using deep learning techniques. The project aimed to provide a faster, more accurate, and consistent alternative to manual visual inspections in industries such as construction, oil & gas, and transportation.",
+    imgUrl: "/assets/project/Corrosion.png",
+    gitUrl: "https://github.com/NicholasVictorio/Corrosion-Detection-Using-Deep-Learning",
     webUrl: "/"
   },
   {
     id: 4,
-    title: "NLP Prediction with mBERT",
-    description: "Project 4 description",
-    imgUrl: "/imgUrls/projects/4.png",
+    title: "Laundry Website",
+    description: "Project 2 description",
+    imgUrl: "/imgUrls/projects/2.png",
     gitUrl: "/",
     webUrl: "/"
   },
