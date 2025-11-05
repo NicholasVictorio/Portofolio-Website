@@ -27,7 +27,7 @@ const projectsData = [
     description: "Developed an automated image classification system to detect corrosion vs. non-corrosion on metal surfaces using deep learning techniques. The project aimed to provide a faster, more accurate, and consistent alternative to manual visual inspections in industries such as construction, oil & gas, and transportation.",
     imgUrl: "/assets/project/Corrosion.png",
     gitUrl: "https://github.com/NicholasVictorio/Corrosion-Detection-Using-Deep-Learning",
-    webUrl: "/"
+    
   },
   {
     id: 4,
