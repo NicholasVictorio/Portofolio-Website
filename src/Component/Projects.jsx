@@ -11,7 +11,7 @@ const projectsData = [
     description: "A modern, responsive portfolio built with Next.js and Tailwind CSS, showcasing projects, skills, and contact info—deployed on Vercel.",
     imgUrl: "/assets/project/Portofolio.png",
     gitUrl: "https://github.com/NicholasVictorio/Portofolio-Website",
-    webUrl: "https://nicholasvictorio.vercel.app"
+    webUrl: "/"
   },
   {
     id: 2,
