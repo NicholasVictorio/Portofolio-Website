@@ -133,7 +133,7 @@ const Footer = () => {
         <div className="mt-5">
           <a
             className="inline-flex items-center text-xs border border-fun-pink px-4 py-2 rounded-xl text-fun-pink font-bold hover:opacity-80 transition"
-            href="https://github.com/NicholasVictorio/Portofolio"
+            href="https://github.com/NicholasVictorio/Portofolio-Website"
             target="_blank"
             rel="noopener noreferrer"
           >

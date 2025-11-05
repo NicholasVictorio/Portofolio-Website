@@ -8,10 +8,10 @@ const projectsData = [
   {
     id: 1,
     title: "Portfolio Website",
-    description: "Project 1 description",
-    imgUrl: "/imgUrls/projects/1.png",
-    gitUrl: "https://github.com/NicholasVictorio/Portfolio",
-    webUrl: "/"
+    description: "A modern, responsive portfolio built with Next.js and Tailwind CSS, showcasing projects, skills, and contact info—deployed on Vercel.",
+    imgUrl: "/assets/project/Portofolio.png",
+    gitUrl: "https://github.com/NicholasVictorio/Portofolio-Website",
+    webUrl: "https://nicholasvictorio.vercel.app"
   },
   {
     id: 2,
@@ -28,30 +28,6 @@ const projectsData = [
     imgUrl: "/assets/project/Corrosion.png",
     gitUrl: "https://github.com/NicholasVictorio/Corrosion-Detection-Using-Deep-Learning",
     
-  },
-  {
-    id: 4,
-    title: "Laundry Website",
-    description: "Project 2 description",
-    imgUrl: "/imgUrls/projects/2.png",
-    gitUrl: "/",
-    webUrl: "/"
-  },
-  {
-    id: 5,
-    title: "Discord Bot",
-    description: "Authentication and CRUD operations",
-    imgUrl: "/imgUrls/projects/5.png",
-    gitUrl: "/",
-    webUrl: "/"
-  },
-  {
-    id: 6,
-    title: "Food Scanner",
-    description: "Project 6 description",
-    imgUrl: "/imgUrls/projects/6.png",
-    gitUrl: "/",
-    webUrl: "/"
   },
 ];
 
