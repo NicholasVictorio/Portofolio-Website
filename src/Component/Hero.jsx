@@ -1,22 +1,13 @@
 "use client";
 import Section from "./Section";
 import { motion } from "framer-motion";
-import DarkVeil from "./DarkVeil";
+
 import Link from "next/link";
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen">
-      <div className="absolute inset-0 z-0 w-full h-full ">
-        <DarkVeil 
-          hueShift={50}
-          noiseIntensity={0.05}
-          scanlineIntensity={0.1}
-          scanlineFrequency={40}
-          warpAmount={0.02}
-          speed={0.8}
-        />
-      </div>
+    <div className="relative">
+
 
       <Section>
         <div className="relative flex flex-col items-center justify-center text-center py-24 md:py-32 lg:py-40 overflow-hidden z-10">

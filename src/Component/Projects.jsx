@@ -23,11 +23,19 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Corrosion Detecion using Deep Learning",
+    title: "Corrosion Detecion using Machine Learning",
     description: "Developed an automated image classification system to detect corrosion vs. non-corrosion on metal surfaces using deep learning techniques. The project aimed to provide a faster, more accurate, and consistent alternative to manual visual inspections in industries such as construction, oil & gas, and transportation.",
     imgUrl: "/assets/project/Corrosion.png",
     gitUrl: "https://github.com/NicholasVictorio/Corrosion-Detection-Using-Deep-Learning",
-    
+
+  },
+  {
+    id: 4,
+    title: "Indonesia Food Detector with YOLO",
+    description: "Developed a deep learning-based computer vision project that detects and classifies Indonesian food items in images using the YOLO (You Only Look Once) object detection framework. The system is designed to recognize multiple food types within a single image in real time.",
+    imgUrl: "/assets/project/Food.png",
+    gitUrl: "https://github.com/NicholasVictorio/Object-Detection-for-Indonesia-Food-with-YOLO",
+
   },
 ];
 
