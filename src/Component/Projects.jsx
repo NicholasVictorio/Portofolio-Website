@@ -35,8 +35,14 @@ const projectsData = [
     description: "Developed a deep learning-based computer vision project that detects and classifies Indonesian food items in images using the YOLO (You Only Look Once) object detection framework. The system is designed to recognize multiple food types within a single image in real time.",
     imgUrl: "/assets/project/Food.png",
     gitUrl: "https://github.com/NicholasVictorio/Object-Detection-for-Indonesia-Food-with-YOLO",
-
   },
+  {
+    id: 5,
+    title: "Laundry Notify",
+    description: "A smart laundry queue notification system that tracks real-time queue updates. It delivers audio alerts and push notifications when the user’s turn is approaching",
+    imgUrl: "/assets/project/Laundry.png",
+    webUrl: "https://laundrynotify.vercel.app/",
+  }
 ];
 
 const Projects = () => {
