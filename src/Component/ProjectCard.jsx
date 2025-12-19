@@ -16,13 +16,15 @@ const ProjectCard = ({ title, description, imgUrl, gitUrl, webUrl }) => {
       >
 
         <div className="absolute inset-0 flex items-center justify-center gap-6 bg-[#181818]/0 opacity-0 group-hover:opacity-100 group-hover:bg-[#181818]/80 transition-all duration-500">
-          <Link
-            href={gitUrl}
-            target="_blank"
-            className="h-12 w-12 border-2 rounded-full border-[#ADB7BE] hover:border-white flex items-center justify-center transition-transform hover:scale-110"
-          >
-            <CodeBracketIcon className="h-6 w-6 text-[#ADB7BE] group-hover:text-white transition-colors" />
-          </Link>
+          {gitUrl && (
+            <Link
+              href={gitUrl}
+              target="_blank"
+              className="h-12 w-12 border-2 rounded-full border-[#ADB7BE] hover:border-white flex items-center justify-center transition-transform hover:scale-110"
+            >
+              <CodeBracketIcon className="h-6 w-6 text-[#ADB7BE] group-hover:text-white transition-colors" />
+            </Link>
+          )}
 
           {webUrl && (
             <Link
